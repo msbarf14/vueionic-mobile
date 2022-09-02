@@ -1,0 +1,24 @@
+<template>
+  <main>
+   <router-view v-slot="{Component}">
+        <transition
+        name="fade"
+        mode="out-in"
+        >
+          <component :is="Component" ></component>
+        </transition>
+      </router-view>
+  </main>
+</template>
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+</style>
