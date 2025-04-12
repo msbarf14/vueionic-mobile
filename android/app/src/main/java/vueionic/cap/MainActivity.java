@@ -1,4 +1,4 @@
-package startervueionic.com;
+package vueionic.cap;
 
 import com.getcapacitor.BridgeActivity;
 
