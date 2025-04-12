@@ -8,18 +8,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@capacitor/android": "^4.7.0",
-    "@capacitor/core": "^4.7.0",
-    "@ionic/vue": "^6.6.0",
+    "@capacitor/android": "6",
+    "@capacitor/core": "6",
+    "@ionic/vue": "8",
+    "@ionic/vue-router": "8",
     "autoprefixer": "^10.4.13",
+    "pinia": "^3.0.2",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
     "vue": "^3.2.47",
     "vue-router": "4"
   },
   "devDependencies": {
-    "@capacitor/cli": "^4.7.0",
+    "@capacitor/cli": "6",
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.1.4"
+    "vite": "^4.1.4",
+    "vite-plugin-vue-devtools": "^7.7.2"
   }
 }

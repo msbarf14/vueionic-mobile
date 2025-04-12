@@ -1,9 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    namespace "vueionic.cap"
+    compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "startervueionic.com"
+        applicationId "vueionic.cap"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

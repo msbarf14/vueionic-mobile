@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Starter-vuevite</string>
     <string name="title_activity_main">Starter-vuevite</string>
-    <string name="package_name">startervueionic.com</string>
-    <string name="custom_url_scheme">startervueionic.com</string>
+    <string name="package_name">vueionic.cap</string>
+    <string name="custom_url_scheme">vueionic.cap</string>
 </resources>

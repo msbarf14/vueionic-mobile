@@ -1,6 +1,5 @@
 {
-  "appId": "startervueionic.com",
+  "appId": "vueionic.cap",
   "appName": "Starter-vuevite",
-  "webDir": "dist",
-  "bundledWebRuntime": false
+  "webDir": "dist"
 }
